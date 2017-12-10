@@ -1,0 +1,20 @@
+{
+  "name": "nodejssample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joxar/nodejssample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joxar/nodejssample/issues"
+  },
+  "homepage": "https://github.com/joxar/nodejssample#readme"
+}
