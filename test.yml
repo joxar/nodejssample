@@ -1,5 +1,4 @@
 platform: linux
-image: "docker:///node#4.2.3"
 
 inputs:
   - name: source
@@ -7,4 +6,3 @@ inputs:
 
 run:
   path: ./test.sh
-  
