@@ -5,4 +5,4 @@ image_resource:
   source: {repository: busybox}
 
 run:
-  path: ./src-sandbox/setup.sh
+  path: sh ./test.sh
