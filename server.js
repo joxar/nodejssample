@@ -3,7 +3,7 @@ var s = require('./settings');
 var server = http.createServer();
 server.on('request', function(req, res) {
 	res.writeHead(200, {'Content-Type': 'text/plain'});
-	res.write("hello!");
+	res.write("hello world!");
 	res.end();
 });
 // server.listen(s.port, s.host);
