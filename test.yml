@@ -5,4 +5,4 @@ image_resource:
   source: {repository: busybox}
 
 run:
-  path: nodejssample/test.sh
+  path: src/test.sh
