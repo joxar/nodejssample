@@ -7,4 +7,4 @@ image_resource:
 run:
   path: sh
   args:
-    ["src-sandbox/test/test.sh"]
+    [".test.sh"]
