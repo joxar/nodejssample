@@ -5,4 +5,5 @@ image_resource:
   source: {repository: busybox}
 
 run:
-  path: src/test.sh
+  path: echo
+  args: ["Hey! Listen!"]
