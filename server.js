@@ -6,5 +6,5 @@ server.on('request', function(req, res) {
 	res.write("hello!");
 	res.end();
 });
-server.listen(s.port, s.host);
-// server.listen(process.env.PORT || 8080);
+// server.listen(s.port, s.host);
+server.listen(process.env.PORT || 8080);
