@@ -3,7 +3,7 @@ var http = require('http'),
 	fs = require('fs'),
 	ejs = require('ejs'),
 	s = require('./settings'),
-	template = fs.readFileSync(__dirname + 'html/index.ejs', 'utf-8'),
+	template = fs.readFileSync(__dirname + '/html/index.ejs', 'utf-8'),
 	server = http.createServer(),
 	posts = [];
 
@@ -38,3 +38,4 @@ server.on('request', function(req, res) {
 });
 // server.listen(s.port, s.host);
 server.listen(process.env.PORT || 8080);
+console.log("server started.")
