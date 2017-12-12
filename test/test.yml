@@ -5,7 +5,7 @@ image_resource:
   source: {repository: busybox}
 
 inputs:
-- name: src-sandbox
+- name: nodejssample
 
 run:
-  path: ./src-sandbox/test.sh
+  path: ./nodejssample/setup.sh
