@@ -6,4 +6,4 @@ image_resource:
 inputs:
   - name: src-sandbox
 run:
-  path: src-sandbox/setup.sh
+  path: src-sandbox/build.sh
