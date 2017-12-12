@@ -7,8 +7,6 @@ image_resource:
 jobs:
 - name: run
   plan:
-  - get: module-02
-    trigger: true
   - task: annoy
     config:
       platform: linux
