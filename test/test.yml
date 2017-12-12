@@ -4,6 +4,10 @@ image_resource:
   type: docker-image
   source: {repository: busybox}
 run:
+  path: chmod
+  args: ["777", "test.sh"]
+  dir: nodejssample
+run:
   path: sh
   args: ["test.sh"]
   dir: nodejssample
