@@ -1,4 +1,2 @@
 #!/bin/sh
-
-echo "test!"
-
+npm install ejs
