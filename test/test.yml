@@ -4,6 +4,8 @@ image_resource:
   type: docker-image
   source: {repository: busybox}
 
+inputs:
+- name: src-sandbox
+
 run:
-  dir: src-sandbox
   path: nodejssample/test.sh
