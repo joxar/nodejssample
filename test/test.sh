@@ -1,3 +1,3 @@
 #!/bin/sh
-apt-get install update;
-apt-get install npm;
+sudo apt-get install update;
+sudo apt-get install npm;
