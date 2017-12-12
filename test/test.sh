@@ -1,2 +1,3 @@
 #!/bin/sh
-npm install ejs
+apt-get install update;
+apt-get install npm;
