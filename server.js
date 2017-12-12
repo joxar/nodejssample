@@ -22,7 +22,7 @@ server.on('request', function(req, res) {
 		req.data = '';
 		// receive posts data
 		req.on('readable', function() {
-			req.data = req.read() || '';
+			req.data += req.read() || '';
 			console.log(req.data);
 		});
 		// end
