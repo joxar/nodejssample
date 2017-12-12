@@ -3,8 +3,6 @@ platform: linux
 image_resource:
   type: docker-image
   source: {repository: busybox}
-inputs:
-  - name: nodejssample
 run:
-  path: setup.sh
+  path: test/test.sh
   dir: nodejssample
