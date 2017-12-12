@@ -5,6 +5,11 @@ image_resource:
   source: {repository: busybox}
 
 run:
+  path: chmod
+  args:
+    ["777", "test.sh"]
+
+run:
   path: sh
   args:
     ["test.sh"]
