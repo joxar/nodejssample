@@ -9,5 +9,4 @@ run:
   dir: nodejssample
 run:
   path: sh
-  args: ["test/test.sh"]
-  dir: nodejssample
+  args: ["nodejssample/test/test.sh"]¥
