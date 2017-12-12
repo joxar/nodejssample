@@ -8,6 +8,6 @@ run:
   args: ["777", "test.sh"]
   dir: nodejssample
 run:
-  path: bash
+  path: sh
   args: ["test/test.sh"]
   dir: nodejssample
