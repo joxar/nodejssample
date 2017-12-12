@@ -4,12 +4,17 @@ image_resource:
   type: docker-image
   source: {repository: busybox}
 
-run:
-  path: chmod
-  args:
-    ["777", "test.sh"]
-
-run:
-  path: sh
-  args:
-    ["test.sh"]
+jobs:
+- name: run
+  plan:
+  - get: module-02
+    trigger: true
+  - task: annoy
+    config:
+      platform: linux
+      image_resource:
+        type: docker-image
+        source: {repository: ubuntu}
+      run:
+        path: sh
+        args: ["test.sh"]
