@@ -8,4 +8,4 @@ inputs:
 - name: src-sandbox
 
 run:
-  path: nodejssample/test.sh
+  path: ./src-sandbox/test.sh
