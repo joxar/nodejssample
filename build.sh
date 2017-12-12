@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "=== setup.sh ==="
+echo "=== build.sh ==="
 npm install ejs
-node nodejssample/server.js
+node server.js
