@@ -29,7 +29,7 @@ server.on('request', function(req, res) {
 		req.on('end', function() {
 			var query = qs.parse(req.data);
 			console.log(query);
-			posts.push(query.user_name);
+			posts.push("ZZZZ" + query.user_name);
 			renderForm(posts, res);
 		});
 	} else {
