@@ -4,14 +4,7 @@ image_resource:
   type: docker-image
   source: {repository: busybox}
 
-jobs:
-- name: run
-  plan:
-  - task: annoy
-    config:
-      platform: linux
-      image_resource:
-        type: docker-image
-        source: {repository: ubuntu}
-      run:
-        path: ls
+run:
+  path: test.sh
+  dir: nodejssample
+  
