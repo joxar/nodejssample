@@ -9,6 +9,7 @@ var http = require('http'),
 
 /*** diplay form ***/
 function renderForm(posts, res) {
+	console.log("pppp: " + posts)
 	var data = ejs.render(template, {
 		posts: posts
 	});
@@ -28,8 +29,7 @@ server.on('request', function(req, res) {
 		// end
 		req.on('end', function() {
 			var query = qs.parse(req.data);
-			console.log(query);
-			posts.push("ZZZZ" + query.user_name);
+			posts.push(query.user_name);
 			renderForm(posts, res);
 		});
 	} else {
