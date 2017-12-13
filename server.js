@@ -18,6 +18,7 @@ function renderForm(posts, res) {
 	res.end();
 }
 
+/*** server ***/
 server.on('request', function(req, res) {
 	if (req.method === 'POST') {
 		req.data = '';
