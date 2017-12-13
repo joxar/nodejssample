@@ -4,6 +4,6 @@ image_resource:
   type: docker-image
   source: {repository: node, tag: "8" }
 inputs:
-  - name: src-linenotify
+  - name: src-sandbox
 run:
-  path: src-linenotify/build.sh
+  path: src-sandbox/build.sh
