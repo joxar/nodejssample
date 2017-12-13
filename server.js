@@ -9,7 +9,6 @@ var http = require('http'),
 
 /*** diplay form ***/
 function renderForm(posts, res) {
-	console.log("pppp: " + posts)
 	var data = ejs.render(template, {
 		posts: posts
 	});
