@@ -38,4 +38,4 @@ server.on('request', function(req, res) {
 });
 // server.listen(s.port, s.host);
 server.listen(process.env.PORT || 8080);
-console.log("server started...!")
+console.log("server started!")
